@@ -21,7 +21,7 @@ class SocialServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('frozennode/social', 'frozennode/social');
+		$this->package('frozennode/social');
 
 		require_once(__DIR__.'/routes.php');
 	}
